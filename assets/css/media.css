@@ -1,0 +1,319 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution deskops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+  #comfortable h2{
+    font-size: 109px;
+    letter-spacing: 2px;
+  }
+  #the_driver h2 {
+    font-size: 40px;
+    padding: 44px 25px;
+  }
+  #speedster_sonka{
+    padding: 7px 4px;
+  }
+  #SPECAL_COLOR{
+    padding-top: 30%;
+    padding-left: 1%;
+  }
+  #WANNA_TALK h1{
+    font-size: 58px;
+  }
+  #steering_system_text h2{
+    font-size: 40px;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #comfortable h2{
+    font-size: 75px;
+    letter-spacing: 4px;
+  }
+  #steering_system_text h2 {
+    font-size: 33px;
+  }
+  #speedster_with {
+    width: 97%;
+  }
+  #speedster_sonka{
+    width: 49%;
+    padding: 7px 0px;
+  }
+  #SPECAL_COLOR h1{
+    font-size: 37px;
+  }
+  #WANNA_TALK h1{
+    font-size: 47px;
+    letter-spacing: 3px;
+  }
+
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  #the_driver{
+    display: block;
+
+  }
+  #the_driver h2{
+    font-size: 40px;
+    padding: 44px 0px 0px;
+  }
+  #the_driver p{
+    width: auto;
+  }
+  #pusging_the{
+    font-size: 22px;
+    line-height: 85px;
+    letter-spacing:5px;
+  }
+  #comfortable h2{
+    font-size: 40px;
+    letter-spacing: 6px;
+    padding-top: 250px;
+  }
+  #string_system{
+    display: block;
+    padding-top: 25px;
+  }
+  #steering_system_text{
+    width: auto;
+  }
+  #steering_system_img{
+    width: auto;
+  }
+  .steering_system_img_hide{
+    display: none;
+  }
+  .steering_system_img_hide_too{
+    display: block;
+  }
+  #speedster_section h1 {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+  #speedster_with{
+    margin: auto;
+    display: block;
+  }
+  #speedster_sonka{
+    width: auto;
+    padding:7px 0px;
+  }
+  #SPECAL_COLOR_with{
+    display: block;
+  }
+  #SPECAL_COLOR{
+    width: 100%;
+    padding-left: 20px;
+  }
+  #SPECAL_COLOR_img{
+    width: auto;
+    height: auto;
+  }
+  #SPECAL_COLOR h1 {
+    font-size: 40px;
+  }
+  #WANNA_TALK h1 {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  #inpot_fild_socall_link{
+    display: block;
+    text-align: center;
+  }
+  #WANNA_TALK{
+    width: 100%;
+  }
+  footer .socall_link {
+    margin: 30px 95px 0px;
+}
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #car_brinding_nam{
+    margin-top: 110px;
+  }
+  #pusging_the {
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    padding: 0px 15px 0px 0px
+  }
+  #the_driver{
+    width: 95%;
+    display: block;
+    height: auto;
+  }
+  #the_driver p {
+    width: 96%;
+    padding-bottom: 40px;
+  }
+  #comfortable h2{
+    font-size: 26px;
+    letter-spacing: 3px;
+    padding-top: 250px;
+  }
+  #the_driver h2{
+    padding: 46px 0px 0px;
+  }
+  #string_system{
+    display: block;
+    padding-top: 20px;
+  }
+  #steering_system_text{
+    width: 100%;
+    padding: 20px;
+  }
+  #steering_system_img{
+    width: 100%;
+  }
+  .steering_system_img_hide{
+    display: none;
+  }
+  .steering_system_img_hide_too{
+    display: block;
+  }
+  #steering_system_text h2{
+    font-size: 26px;
+  }
+  #speedster_section h1 {
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  #speedster_with{
+    display: block;
+    margin: 0 auto;
+  }
+  #speedster_sonka{
+    padding: 8px 0px;
+    width: 100%;
+  }
+  #speedster_section{
+    padding: 0px 0px 50px;
+  }
+  #SPECAL_COLOR_with{
+    display: block;
+  }
+  #SPECAL_COLOR{
+    width: 100%;
+    padding-left: 12px;
+    padding-top: 200px;
+  }
+  #SPECAL_COLOR h1 {
+    font-size: 28px;
+  }
+  #SPECAL_COLOR_img{
+    width: 100%;
+    height: auto;
+  }
+  #WANNA_TALK h1{
+    padding-bottom: 28px;
+    font-size: 30px;
+    letter-spacing: 4px;
+  }
+  #inpot_fild_socall_link{
+    display: block;
+    text-align: center;
+  }
+  #inpot_fild_socall_link .submit_box{
+    padding: 10px 15px;
+  }
+  #inpot_fild_socall_link .email_box{
+    margin-right: 0;
+    margin-left: 15px;
+    padding: 14px 13px;
+  }
+  #WANNA_TALK{
+    width: 100%;
+  }
+  #Privacy_Policy{
+    font-size: 11px;
+  }
+  .socall_link {
+    margin-top: 23px;
+    text-align: center;
+}
+}
+
+/* Responsive nav */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: none;
+  }
+  #top_hedder nav{
+    background-color: #333;
+  }
+  .logo span{
+    color: orange;
+  }
+
+  .nav-links.active {
+    display: flex;
+    padding: 22px 0px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+#top_hedder nav ul button{
+  background:orange;
+}
+.nav-links li a:hover{
+  color: orange;
+}
+.nav-links li a:hover::before{
+  width: 0%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+  
+
+}

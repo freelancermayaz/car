@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#top_hedder nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 45px;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: orange;
+  cursor: pointer;
+}
+.logo span{
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  display: inline-block;
+  padding: 7px 11px 0px;
+  position: relative;
+  transition: all 0.8s;
+}
+
+.nav-links li a::before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 2px;
+  width: 0%;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s;
+}
+.nav-links li a:hover::before{
+  width: 90%;
+  margin-left: 4px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s;
+}
+::selection {
+background-color: rgb(255 165 0 / 65%);
+}
+
+img {
+width: 100%;
+height: 100%;
+}
+
+#top_hedder {
+background-image: url("../img/Drive Slow De Niro GIF by NETFLIX.gif");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+height: 100vh;
+}
+#top_hedder nav ul button {padding: 7px 24px;background-color: rgb(180, 178, 178);border: none;box-shadow: rgb(0, 0, 0) 5px 4px 19px 0px;border-radius: 5px;cursor: pointer;transition: 0.8s;}
+
+#top_hedder nav ul button a {
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: 600;
+font-size: 16px;
+}
+
+#top_hedder nav ul button:hover {
+background-color: orange;
+transform: scale(1.07);
+}
+
+#car_brinding_nam {
+text-align: center;
+color: whitesmoke;
+font-size: 25px;
+font-family: "Monsieur La Doulaise", cursive;
+margin-top: 140px;
+}
+
+#pusging_the {
+text-align: center;
+color: white;
+line-height: 90px;
+margin-top: 10px;
+font-size: 37px;
+font-family: fantasy;
+letter-spacing: 7px;
+}
+
+#the_driver {
+width: 80%;
+height: 80vh;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#the_driver h2 {
+width: 100%;
+font-size: 39px;
+padding: 44px;
+font-weight: 900;
+line-height: 55px;
+}
+
+#the_driver p {
+width: 166%;
+font-size: 18px;
+line-height: 30px;
+margin-top: 15px;
+}
+
+#comfortable_section {
+background-image: url("../img/porsche nuevo911 GIF.gif");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 100vh;
+}
+
+#comfortable {
+text-align: center;
+color: white;
+}
+
+#comfortable h2 {
+font-size: 127px;
+font-weight: 900;
+letter-spacing: 12px;
+text-shadow: rgba(0, 0, 0, 0.9) 12px 20px 10px;
+padding-top: 50px;
+}
+
+#string_system_section {
+background-color: rgba(116, 115, 115, 0.48);
+padding-bottom: 60px;
+border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+#steering_system_text {
+width: 50%;
+padding: 40px;
+background-color: rgb(51, 51, 51);
+color: white;
+}
+
+#steering_system_text h2 {
+font-size: 50px;
+font-weight: 800;
+}
+
+#steering_system_text p {
+font-size: 16px;
+color: rgba(255, 255, 255, 0.58);
+margin-top: 30px;
+}
+
+#steering_system_img {
+width: 50%;
+height: 400px;
+}
+.steering_system_img_hide_too{
+display: none;
+}
+
+#string_system {
+display: flex;
+width: 90%;
+margin: auto;
+}
+
+#speedster_sonka {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 7px 61px;
+width: 40%;
+border-bottom: 2px solid black;
+}
+
+#speedster_sonka h3 {
+font-size: 40px;
+font-weight: 800;
+color: #141414;
+}
+
+#speedster_sonka p {
+font-size: 16px;
+font-weight: 600;
+color: #333;
+}
+
+#speedster_with {
+width: 90%;
+margin: 50px auto auto;
+display: flex;
+justify-content: space-between;
+}
+
+#speedster_section {padding: 0px 68px;padding-bottom: 50px;background-color: white;}
+
+#speedster_section h1 {
+text-align: center;
+font-size: 30px;
+padding-top: 57px;
+font-weight: 700;
+}
+#speedster_section h1 span{
+color: orange;
+}
+#SPECAL_COLOR{
+width: 79%;
+height: 100vh;
+background-image: url(../img/download.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+padding-top: 416px;
+padding-left: 60px;
+text-shadow: 6px 20px 3px #000000;
+}
+#SPECAL_COLOR h1{
+font-size: 50px;
+font-weight: 800;
+}
+#SPECAL_COLOR h4{
+font-size: 26px;
+}
+#SPECAL_COLOR_img{
+width: 53%;
+height: 100vh;
+}
+#SPECAL_COLOR_with{
+margin: auto;
+display: flex;
+}
+#WANNA_TALK{
+padding: 50px 0px 40px;
+width: 90%;
+margin: auto;
+border-bottom: 1px solid white;
+}
+#WANNA_TALK h1{
+text-align: center;
+padding-bottom: 35px;
+font-size: 80px;
+letter-spacing: 8px;
+font-weight: 800;
+}
+#inpot_fild_socall_link{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#inpot_fild_socall_link .socall_link .fa-brands {padding: 15px;background-color: #333;font-size: 23px;border-radius: 5px;margin-right: 24px;transition: all 1s;cursor: pointer;}
+#inpot_fild_socall_link .socall_link .fa-brands:hover{
+transform: scale(0.8);
+color: black;
+background-color: orange;
+}
+
+#inpot_fild_socall_link .email_box{
+background-color: #333;
+border: none;
+margin-right: 10px;
+padding: 14px 35px;
+color: white;
+border-radius: 2px;
+margin-left: 30px;
+}
+#inpot_fild_socall_link .submit_box{
+padding: 11px 26px;
+font-size: 17px;
+background-color: orange;
+font-weight: 700;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+transition: all 0.8s;
+}
+#inpot_fild_socall_link .submit_box:hover{
+background-color: white;
+}
+#WANNA_TALK_footer{
+background-color: #0b0e10;
+color: white;
+padding-bottom: 13px;
+}
+#Privacy_Policy{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 12px;
+}
